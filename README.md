@@ -1,6 +1,9 @@
 # Benchmarking partial evaluation in Scala, Eta, Haskell
 
-Results on my machine for fibonacci 5e5
+To reproduce on your machine, run
+`etlas configure --enable-uberjar-mode; etlas build` in `eta` then `sbt run` in scala, for haskell `cabal run` in `haskell`.
+
+Results on my machine for fibonacci 5e5:
 
 ## Haskell
 
